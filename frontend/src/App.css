@@ -1,0 +1,19 @@
+.app-root {
+  background: radial-gradient(circle at top, #facc15 0, #f97316 30%, #020617 75%);
+}
+
+.app-title {
+  text-shadow: 0 0 18px rgba(250, 204, 21, 0.5);
+}
+
+.app-subtitle {
+  text-shadow: 0 0 8px rgba(15, 23, 42, 0.9);
+}
+
+/* Slightly wider padding on larger screens */
+@media (min-width: 768px) {
+  .app-root {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
