@@ -12,7 +12,7 @@ export default function usePokemon() {
       setError("");
       setPokemon(null);
 
-      const response = await axios.get(`/api/pokemon/${nameOrId}`);
+      const response = await axios.get(`https://pokemon-explorer-gld2.onrender.com/api/pokemon/${nameOrId}`);
 
       // Backend returns { source, pokemon }
       setPokemon(response.data.pokemon);
