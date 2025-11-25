@@ -3,6 +3,9 @@
 A full-stack Pokédex application that lets users search for Pokémon by name, view detailed attributes, and discover a random Pokémon.  
 The project includes a performant backend with caching and a modern, responsive frontend.
 
+### 🔗 **Live Demo**  
+https://pokemon-explorer-eosin-tau.vercel.app/
+
 ---
 
 ## 🚀 Features
